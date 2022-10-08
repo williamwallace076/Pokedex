@@ -1,0 +1,62 @@
+.listagem{
+    max-width: 200px;
+    
+}
+
+.listagem .pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block-end: 100%;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: #ffff;
+    padding: 0 5px;
+    cursor:pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out; /*animação dos botoes */
+}
+
+.listagem .pokemon:hover{
+    transform: scale(1.05);
+}
+
+ .listagem .pokemon img{
+    width: 25%;
+    border-radius: 50%;
+} 
+
+.listagem .pokemon span{
+   padding-right: 20px;
+} 
+
+.listagem .pokemon.ativo{
+    background-color: rgb(0, 255, 85);
+ }
+
+
+ /* .tipo-eletrico{
+    background-color: #fcc719;
+}
+
+.tipo-grama{
+    background-color: #49d0b0;
+}
+
+.tipo-fogo{
+    background-color: #ed8a8b;
+}
+
+.tipo-agua{
+    background-color: #76befe;
+}
+
+.tipo-trevas{
+    background-color: #ba68c8;
+}
+.tipo-dragao{
+    background-color: #c29791;
+} */

@@ -1,0 +1,19 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    image-rendering: 592px 778px;
+
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadfe8;
+}
+.pokedex {
+    display: flex;
+    gap: 30px; /*espaçamento lateral*/
+    padding: 30px 0px;
+    max-width:52%;
+} 
